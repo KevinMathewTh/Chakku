@@ -77,13 +77,13 @@ function drawText() {
 
     if(frameNumber < 250){
         context.fillStyle = `rgba(76, 168, 221, ${opacity})`;
-        context.fillText("Chakkuuuu you are the best thing that happend to me in 2024", canvas.width/2, canvas.height/2);
+        context.fillText("Chakku you're the best thing that happend to me in 2024", canvas.width/2, canvas.height/2);
         opacity = opacity + 0.01;
     }
     //fades out the text by decreasing the opacity
     if(frameNumber >= 250 && frameNumber < 500){
         context.fillStyle = `rgba(76, 168, 221, ${opacity})`;
-        context.fillText("Chakkuuuu you are the best thing that happend to me in 2024", canvas.width/2, canvas.height/2);
+        context.fillText("Chakku you're the best thing that happend to me in 2024", canvas.width/2, canvas.height/2);
         opacity = opacity - 0.01;
     }
 
