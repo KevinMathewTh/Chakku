@@ -97,7 +97,7 @@ function drawText() {
         if (window.innerWidth < 600) {           //shortens long sentence for mobile screens
             drawTextWithLineBreaks(["All the laughter, smiles,", " hugs, thoughtful letters and heart warming messages"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("All the laughter and smiles,hugs thoughtful letters and heart warming messages", canvas.width/2, canvas.height/2);
+            context.fillText("All the laughter, smiles, hugs , thoughtful letters and heart warming messages", canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity + 0.01;
@@ -108,7 +108,7 @@ function drawText() {
         if (window.innerWidth < 600) {
             drawTextWithLineBreaks(["All the laughter, smiles,", " hugs, thoughtful letters and heart warming messages"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("All the laughter and smiles,hugs thoughtful letters and heart warming messages", canvas.width/2, canvas.height/2);
+            context.fillText("All the laughter, smiles, hugs , thoughtful letters and heart warming messages", canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity - 0.01;
@@ -149,9 +149,9 @@ function drawText() {
         context.fillStyle = `rgba(76, 168, 221, ${opacity})`;
 
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["and yet here I am to get the impossible", "chance to get to know you"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["and yet here I am to get the impossible,", "chance to get to know you"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("and yet here I am to get the impossible a chance to get to know you", canvas.width/2, canvas.height/2);
+            context.fillText("and yet here I am to get the impossible, a chance to get to know you", canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity + 0.01;
@@ -162,7 +162,7 @@ function drawText() {
         if (window.innerWidth < 600) {
             drawTextWithLineBreaks(["and yet here I am to get the impossible", "chance to get to know you"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("and yet here I am to get the impossible a chance to get to know you", canvas.width/2, canvas.height/2);
+            context.fillText("and yet here I am to get the impossible, a chance to get to know you", canvas.width/2, canvas.height/2);
         }
         
         opacity = opacity - 0.01;
